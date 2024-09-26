@@ -1,0 +1,14 @@
+.container {
+    text-align: center;
+}
+
+.Main {
+    border: 5px solid black;
+    border-radius: 30px;
+    text-align: center;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    margin-top: 150px;
+
+}
