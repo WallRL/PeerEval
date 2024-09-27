@@ -2,7 +2,7 @@ body{
     height: 100vh;
     padding: 0px;
     margin: 0px;
-    background: linear-gradient(rgb(255, 0, 0) 0%, rgb(255, 0, 0) 50%, rgb(255, 216, 216) 50%, rgb(255, 216, 216) 100%);
+    background: linear-gradient(#4f2170 0%, #4f2170 50%, #edddf8 50%, #f4e6ff 100%);
 }
 
 .container {
@@ -36,6 +36,10 @@ body{
     background-color: lightgray;
 }
 
+.links {
+    text-align: center;
+}
+
 .spacer{
     padding: 0;
     height: 140px;
@@ -51,16 +55,20 @@ body{
     height: 90px;
 }
 
+#wildcat{
+    width: 500px;
+}
+
 form{
     height: 100%;
 }
 
 input{
     border-radius: 10px;
-    border-color: rgb(255, 0, 0);
+    border-color: #4f2170;
     padding: 15px;
     width: 326px;
-    background-color: rgb(255, 216, 216);
+    background-color: #edddf8;
 }
 
 label{
@@ -87,8 +95,17 @@ button {
     margin-top: 30px;
     border: 0px;
     border-radius: 10px;
-    background-color: rgb(255, 0, 0);
+    background-color: #4f2170;
     color: white;
     font-size: 15px;
     font-weight: bold;
+    cursor: pointer;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 70px;
+    font-size: 15px;
 }
