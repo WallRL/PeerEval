@@ -1,0 +1,103 @@
+body {
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    background: #ffffff;
+    display: flex;
+}
+
+.sidebar {
+    background-color: #4f2170;
+    height: 100%;
+    width: 5%;
+    text-align: center;
+}
+
+.spacer {
+    width: 100%;
+    height: 10px;
+}
+
+.icon {
+    width: 50%;
+    padding: 5px;
+    padding-top: 30px;
+    color: white;
+    
+}
+
+.sidelabel {
+    text-align: center;
+    width: 90%;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+}
+
+#Main {
+    width: 100%;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #4f2170;
+    text-shadow: none;
+}
+
+#logo {
+    width: 90%;
+    padding: 5px;
+    border-bottom: 2px;
+}
+
+#buttonContainer {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+}
+
+p {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    color: rgb(97, 97, 97);
+}
+
+h1 {
+    text-align: center;
+    font-size: 75px;
+    margin-bottom:0px ;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 20px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #4f2170;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    width: 200px;
+    box-shadow: none;
+    border:none;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #301444;
+}
